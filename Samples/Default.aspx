@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/One.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Samples_Default" Title="Untitled Page" %>
+<%@ Page Language="C#" MasterPageFile="~/masters/One.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Samples_Default" Title="Untitled Page" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
     <h2>
         Portfolio/Samples</h2>

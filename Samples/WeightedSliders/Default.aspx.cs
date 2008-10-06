@@ -8,20 +8,25 @@ using System.Text;
 
 public partial class Samples_WeightedSliders_Default : Page
 {
+    bool _asWidget = false;
+
     #region PageMethods
-    protected void Page_Load(object sender, EventArgs e)
+    protected void Page_PreInit(object sender, EventArgs e)
     {
-        bool asWidget = false;
         if (!IsPostBack)
         {
-
-            bool.TryParse(Request.QueryString["asWidget"], out asWidget);
-
-            if (null != Request.QueryString["sliderNames"]) BindSliderRepeater(Request.QueryString["sliderNames"]);
-
+            bool.TryParse(Request.QueryString["asWidget"], out _asWidget);
+            if (_asWidget) MasterPageFile = "~/masters/blank.master";
         }
-
-        if (asWidget) ControlsDiv.Visible = false;
+        
+    }
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            if (null != Request.QueryString["sliderNames"]) BindSliderRepeater(Request.QueryString["sliderNames"]);
+        }
+        if (_asWidget) ControlsDiv.Visible = false;
 
     }
     #endregion

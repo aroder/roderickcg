@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/One.Master" AutoEventWireup="true" CodeFile="Default.aspx.cs"
+<%@ Page Language="C#" MasterPageFile="~/masters/One.master" AutoEventWireup="true" CodeFile="Default.aspx.cs"
     Inherits="_Default" Title="Roderick Consulting Group - Offering services in integration" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">

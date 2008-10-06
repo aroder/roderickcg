@@ -1,7 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/One.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Samples_WeightedSliders_Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/masters/One.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Samples_WeightedSliders_Default" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="ContextMenuContent" Runat="Server">
-</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
     <style type="text/css">
         .sliderValue
@@ -10,17 +8,17 @@
         }
         .locked
         {
-            color: Red;
+            background-image: url('images/lock.png');
         }
         .unlocked
         {
-            color: Blue;
+            background-image: url('images/unlock.png');
         }
         .lockedIndicator
         {
-            border: solid 1px black;
-            padding: 3px;
             cursor: pointer;
+            width: 32px;
+            height: 32px;
         }
         .hidden
         {
@@ -118,12 +116,12 @@
         function ToggleLock(jquerySliderObject) {
             var lockedIndicator = jquerySliderObject.find(".lockedIndicator");
             if (lockedIndicator.hasClass("locked")) {
-                lockedIndicator.text('unlocked');
+//                lockedIndicator.text('unlocked');
                 lockedIndicator.addClass('unlocked');
                 lockedIndicator.removeClass("locked");
                 lockedIndicator.parent().parent().find(".ui-slider-1").slider("enable");
             } else {
-                lockedIndicator.text('locked');
+//                lockedIndicator.text('locked');
                 lockedIndicator.addClass('locked');
                 lockedIndicator.removeClass('unlocked');
                 lockedIndicator.parent().parent().find(".ui-slider-1").slider("disable");
@@ -226,7 +224,7 @@
                     <span class="sliderValue hidden"></span>
                 </td>
                 <td>
-                    <span class="lockedIndicator unlocked">unlocked</span>
+                    <div class="lockedIndicator unlocked">&nbsp;</div>
                 </td>
             </tr>
         </ItemTemplate>

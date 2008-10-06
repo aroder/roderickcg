@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/One.master" AutoEventWireup="true" CodeFile="TreeViewUsingJQuery.aspx.cs"
+<%@ Page Language="C#" MasterPageFile="~/masters/One.master" AutoEventWireup="true" CodeFile="TreeViewUsingJQuery.aspx.cs"
     Inherits="Samples_TreeViewUsingJQuery" Title="Untitled Page" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContextMenuContent" runat="Server">

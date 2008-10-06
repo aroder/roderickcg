@@ -1,0 +1,40 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="B27FD772-D2F3-4DDC-B5E8-78C5E354C6D4/d:Samples/d:WeightedSliders/f:Default.aspx" caret="10014" scrollPosition="0|0" />
+      <File id="B27FD772-D2F3-4DDC-B5E8-78C5E354C6D4/d:Samples/d:WeightedSliders/f:Default.aspx.cs" caret="0" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="B27FD772-D2F3-4DDC-B5E8-78C5E354C6D4/d:Samples/d:WeightedSliders/f:Default.aspx" caret="10014" scrollPosition="0|13" />
+      <File id="B27FD772-D2F3-4DDC-B5E8-78C5E354C6D4/d:Samples/d:WeightedSliders/f:Default.aspx" caret="342" scrollPosition="0|0" />
+      <File id="B27FD772-D2F3-4DDC-B5E8-78C5E354C6D4/d:Samples/d:WeightedSliders/f:Default.aspx" caret="10014" scrollPosition="0|150" />
+      <File id="B27FD772-D2F3-4DDC-B5E8-78C5E354C6D4/d:Samples/d:WeightedSliders/f:Default.aspx" caret="7460" scrollPosition="0|150" />
+      <File id="B27FD772-D2F3-4DDC-B5E8-78C5E354C6D4/d:Samples/d:WeightedSliders/f:Default.aspx" caret="10014" scrollPosition="0|220" />
+      <File id="B27FD772-D2F3-4DDC-B5E8-78C5E354C6D4/d:Samples/d:WeightedSliders/f:Default.aspx.cs" caret="4171" scrollPosition="0|91" />
+      <File id="B27FD772-D2F3-4DDC-B5E8-78C5E354C6D4/d:Samples/d:WeightedSliders/f:Default.aspx.cs" caret="2740" scrollPosition="0|81" />
+      <File id="B27FD772-D2F3-4DDC-B5E8-78C5E354C6D4/d:Samples/d:WeightedSliders/f:Default.aspx.cs" caret="2087" scrollPosition="0|53" />
+      <File id="B27FD772-D2F3-4DDC-B5E8-78C5E354C6D4/d:Samples/d:WeightedSliders/f:Default.aspx.cs" caret="1264" scrollPosition="0|25" />
+      <File id="B27FD772-D2F3-4DDC-B5E8-78C5E354C6D4/d:Samples/d:WeightedSliders/f:Default.aspx.cs" caret="222" scrollPosition="0|0" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>
