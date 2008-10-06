@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="1" title="Home"  description="">
+		<siteMapNode url="~/Default.aspx" title="Home"  description="" />
+		<siteMapNode url="~/Services/Default.aspx" title="Services"  description="">
+      <siteMapNode url="~/Services/Web20.aspx" title="Web 2.0" description="Web 2.0" />
+      <siteMapNode url="~/Services/SOA.aspx" title="Web Services" description="Service-Oriented Architecture (SOA) and Web Services" />
+      <siteMapNode url="~/Services/B2B.aspx" title="B2B" description="Business-to-Business Integration (B2B)" />
+      <siteMapNode url="~/Services/EAI.aspx" title="EAI" description="Enterprise Application Integration (EAI)" />
+      <siteMapNode url="~/Services/BPM.aspx" title="BPM" description="Business Process Management (BPM)" />
+      <siteMapNode url="~/Services/BizTalkDev.aspx" title="BizTalk" description="BizTalk Application Development" />
+		</siteMapNode>
+		<siteMapNode url="~/AboutUs.aspx" title="About Us" />
+		<siteMapNode url="~/ContactUs.aspx" title="Contact Us" />
+		<siteMapNode url="~/Resources/Default.aspx" title="Resources">
+      <siteMapNode url="~/Resources/Web20.aspx" title="Web 2.0" description="Web 2.0" />
+      <!--<siteMapNode url="~/Resources/B2B.aspx" title="B2B" description="Business-to-Business Integration (B2B)" />-->
+			<siteMapNode url="~/Resources/EAI.aspx" title="EAI" description="Enterprise Application Integration (EAI)" />
+			<siteMapNode url="~/Resources/BPM.aspx" title="BPM" description="Business Process Management (BPM)" />
+			<siteMapNode url="~/Resources/SOA.aspx" title="SOA" description="Service-Oriented Architecture (SOA) and Web Services" />
+			<siteMapNode url="~/Resources/BizTalk.aspx" title="BizTalk" description="Microsoft BizTalk Server" />
+		</siteMapNode>
+	</siteMapNode>
+</siteMap>
